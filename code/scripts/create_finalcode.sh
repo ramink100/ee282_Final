@@ -4,9 +4,10 @@
 
 #module load jje/jjeutils
 #createProject ee282_final
-module load brew/git
-git status
-git remote add origin http://github.com/ramink100/ee282_Final.git
-git push -u origin master
+#module load brew/git
+#git status
+#git remote add origin http://github.com/ramink100/ee282_Final.git
+#git push -u origin master
+
 
 

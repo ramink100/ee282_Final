@@ -1,4 +1,5 @@
 #curl ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/fasta/dmel-all-chromosome-r6.13.fasta.gz -o dmel-all-chromosome-r6.13.fasta.gz
+#curl ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/gtf/dmel-all-r6.13.gtf.gz -o dmel-all-r6.13.gtf.gzl 
 
 
 

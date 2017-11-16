@@ -49,25 +49,39 @@ bioawk -c gff ' $feature =="mRNA" { print $group }' ~/repos/ee282_final/data/raw
 #library(ggplot2)
 #small<-read.table("dmelrel6_filtered.sizes")
 #big<-read.table("dmelrel6_min100000.sizes")
+#pdf("smalldistribution.pdf")
 #ggsmall <-ggplot(data =small)
 #ggsmall +geom_histogram(mapping = aes(x=V2), bins =100)
+#dev.off()
+#pdf("bigdistribution.pdf")
 #ggbig <-ggplot(data=big)
 #ggbig +geom_histogram(mapping = aes(x=V2), bins =100)
+#dev.off()
 
 #gc<-read.table("dmelrel6_gc")
+#pdf("gcdistribution.pdf")
 #gggc <-ggplot(data =gc)
 #gggc +geom_histogram(mapping = aes(x=V2), bins =100)
+#dev.off()
 
 #size<-read.table("dmelrel6_size")
+#pdf("genomesize.pdf")
 #ggplot(size, aes(x=1:1870, y=cumsum(V2))) + geom_line()
+#dev.off()
 
 #transcripts<-read.table("dmelallr6_transcripts")
+#pdf("transcripts.pdf")
 #ggplot(data = transcripts, aes(x = V2, y = V1)) + geom_bar(stat="identity")
+#dev.off()
 
 #gene<-read.table("dmelallr6_genelength")
+#pdf("genelengths.pdf")
 #ggplot(gene, aes(x=V1)) + 
 #    geom_histogram(binwidth=1000) + ylim(0,250)
+#dev.off()
 
 #exon<-read.table("dmelallr6_exonlength")
+#pdf("exonlengths.pdf")
 #ggplot(exon, aes(x=V1)) + 
 #    geom_histogram(binwidth=10) + ylim(0,300)
+#dev.off()
